@@ -193,8 +193,16 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .wordmark {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: clamp(1.7rem, 2.2vw + 1rem, 2.1rem);
+  font-size: clamp(1.15rem, 4.5vw + 0.4rem, 2.1rem);
   letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+@media (max-width: 380px) {
+  .header-inner .btn {
+    font-size: 0.85rem;
+    padding: 0.8rem 1.2rem;
+  }
 }
 
 /* ==========================================================================
@@ -228,6 +236,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 
 .hero-sub strong {
   display: inline-block;
+  margin-top: 0.75rem;
   font-weight: 600;
   color: var(--ink);
   text-wrap: balance;
