@@ -570,14 +570,16 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 
 .final-cta-alt {
   margin: 2rem 0 0 !important;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--ink);
   max-width: none !important;
   line-height: 1.5;
 }
 
 .final-cta-alt a {
   color: var(--ink);
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: underline;
   text-decoration-color: rgba(27, 42, 31, 0.35);
   text-underline-offset: 0.15em;
@@ -614,7 +616,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .wordmark--footer {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
 }
 
 .footer-links {
